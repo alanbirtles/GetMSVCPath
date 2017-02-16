@@ -1,0 +1,1 @@
+@powershell -Command "&{ Add-Type -Path ..\cs\VSConfig.cs ; [VisualStudioSetup]::Main()}"
